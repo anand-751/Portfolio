@@ -34,12 +34,21 @@ const ExperienceCard = ({ experience }) => {
     >
       <div>
         <h3 className='text-white text-[24px] font-bold'>{experience.title}</h3>
-        <p
-          className='text-secondary text-[16px] font-semibold'
-          style={{ margin: 0 }}
-        >
+        <p className='text-secondary text-[16px] font-semibold' style={{ margin: 0 }}>
           {experience.company_name}
         </p>
+
+        {/* Conditionally render link if provided */}
+        {experience.link && (
+          <a
+            href={experience.link}
+            target='_blank'
+            rel='noopener noreferrer'
+            className='text-blue-400 underline text-sm mt-2 inline-block'
+          >
+            🔗 Link
+          </a>
+        )}
       </div>
 
       <ul className='mt-5 list-disc ml-5 space-y-2'>

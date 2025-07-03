@@ -13,8 +13,13 @@ import figma from "./tech/figma.png";
 import gearXpert from './gearXpert.png';
 import project3 from './project3.webp';
 import project2 from './proj1.webp'
+import aibot from './aibot.jpeg'
+import banking from './banking.jpeg'
+import shell from './shell.png'
+import hp2 from './hp2.png'
 import mysql from './tech/mysql.png';
 import express from './tech/express.png';
+import nextjs from './tech/nextjs.svg';
 import aws from './tech/aws.png';
 import mui from './tech/mui.png'
 import git from "./tech/git.png";
@@ -45,12 +50,17 @@ export {
   project3,
   mysql,
   express,
+  nextjs,
   aws,
   mui,
   firstTestimonial,
   secondTestimonial,
   thirdTestimonial,
   gsap,
+  aibot,
+  hp2,
+  banking,
+  shell,
   framer,
   figma,
   git,

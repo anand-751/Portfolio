@@ -72,10 +72,32 @@ const About = () => {
       </div>
 
       <p ref={paragraphRef} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        I'm a skilled software developer with experience in  JavaScript, and expertise in frameworks 
-        like React, Node.js, and Three.js. I'm a quick learner and collaborate closely with clients to create efficient, 
-        scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!
+        B.Tech student in Electronics and Computer Engineering with practical experience as an SDE Intern at Lumovate Intelligence. Skilled in building full-stack applications using the MERN stack, Next.js (SSR), and responsive UI with Tailwind. Built AI-powered tools using Gemini 1.5 and Electron.js. Strong foundation in DSA, REST APIs, and system design.
+        <br />
+        4⭐ C++ coder on{" "}
+        <a
+          href="https://www.hackerrank.com/profile/anand2522004"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-white underline hover:text-purple-400"
+        >
+          HackerRank
+        </a>{" "}
+        with 75+ LeetCode problems solved.
+        <br />
+        Check out my projects on{" "}
+        <a
+          href="https://github.com/anand-751"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-white underline hover:text-purple-400"
+        >
+          GitHub
+        </a>
+        . Fast learner, team player, and passionate about solving real-world tech challenges.
       </p>
+
+
 
       <div className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center gap-10">
         {services.map((service, index) => (
